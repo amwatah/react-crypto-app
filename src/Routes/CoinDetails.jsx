@@ -8,7 +8,7 @@ const CoinDetails = () => {
   const coinIdentity = useParams().coinId;
   //api url
 
-  //fetch coin details
+  //fetch coin details from api
   function getCoinDetails() {
     const coinGeckoUrl = `https://api.coingecko.com/api/v3/coins/${coinIdentity}?localization=false&tickers=false&developer_data=false`;
 
